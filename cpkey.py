@@ -8,8 +8,11 @@ class Colors:
     RED = '\033[91m'
     END = '\033[0m'
 
-print("This script is going to erase apikey.py file please press 'Ctrl+C' if you don't want to do it and a 'Enter' if you do want it")
-
+print("")
+print("""This script is going to erase apikey.py file 
+please press 'Ctrl+C' if you don't want to do it 
+and a 'Enter' if you do want it""")
+print("")
 raw_input("?")
 print("")
 print (Colors.BLUE + "Please, paste your api key:" + Colors.END)
