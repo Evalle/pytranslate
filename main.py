@@ -7,4 +7,6 @@ from yandex_translate import YandexTranslate
 # local imports
 from apikey import key
 
+translate = YandexTranslate(key)
+
 
