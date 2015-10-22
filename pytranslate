@@ -12,5 +12,15 @@ from apikey import key
 
 translate = YandexTranslate(key)
 
-print(user_input)
+lang = translate.detect(user_input)
 
+def convert(lang):
+    if lang == u'en':
+        lang = 'en'
+    elif lang == u'ru':
+        lang = 'ru'
+    else:
+        lang = 'unknown'
+    return lang
+
+print(translate.translate(user_input, lang))
