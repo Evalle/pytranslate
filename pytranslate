@@ -3,10 +3,14 @@
 # global imports:
 from __future__ import print_function
 from yandex_translate import YandexTranslate
+from sys import argv
+
+user_input = argv[1]
 
 # local imports
 from apikey import key
 
 translate = YandexTranslate(key)
 
+print(user_input)
 
