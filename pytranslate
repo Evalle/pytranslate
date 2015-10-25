@@ -4,14 +4,13 @@
 from __future__ import print_function
 from yandex_translate import YandexTranslate
 from sys import argv
-
+# we need to do it in a proper way:
 user_input = argv[1]
 
 # local imports
 from apikey import key
 
 translate = YandexTranslate(key)
-
 lang = translate.detect(user_input)
 
 # dirty hack, we don't need another lang except en and ru
@@ -26,8 +25,5 @@ def invert_lang(lang):
     return trlang
 
 answer = translate.translate(user_input, invert_lang(lang))
-
 ans_list = (answer[u'text'])
-
 print(ans_list[0])
-
