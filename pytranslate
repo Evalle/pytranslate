@@ -25,4 +25,7 @@ def invert_lang(lang):
         trlang == 'unknown'
     return trlang
 
-print(translate.translate(user_input, invert_lang(lang)))
+answer = translate.translate(user_input, invert_lang(lang))
+
+print(answer[u'text'])
+
