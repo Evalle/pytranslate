@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#version = 0.1
+#version = 0.2
 # global imports:
 from __future__ import print_function
 from yandex_translate import YandexTranslate
@@ -27,5 +27,7 @@ def invert_lang(lang):
 
 answer = translate.translate(user_input, invert_lang(lang))
 
-print(answer[u'text'])
+ans_list = (answer[u'text'])
+
+print(ans_list[0])
 
