@@ -3,27 +3,32 @@
 # global imports:
 from __future__ import print_function
 from yandex_translate import YandexTranslate
-from sys import argv
-# we need to do it in a proper way:
-user_input = argv[1]
-
+import sys
+# we need to do it in a proper way
 # local imports
 from apikey import key
 
 translate = YandexTranslate(key)
-lang = translate.detect(user_input)
 
 # dirty hack, we don't need another lang except en and ru
 def invert_lang(lang):
     lang = str(lang)
     if lang == 'ru':
-        trlang = 'en'
-    elif lang == 'en':
-        trlang = 'ru'
-    else:
-        trlang == 'unknown'
-    return trlang
+        return 'en'
+    if lang == 'en':
+        return 'ru'
+    return 'unknown'
 
-answer = translate.translate(user_input, invert_lang(lang))
-ans_list = (answer[u'text'])
-print(ans_list[0])
+def xlate(user_input):
+    slang = translate.detect(user_input)
+    answer = translate.translate(user_input, invert_lang(slang))
+    ans_list = (answer[u'text'])
+    return (ans_list[0])
+
+if len(sys.argv) < 2:
+    print("sorry bro", file = sys.stderr)
+    sys.exit(1)
+
+for i in range(1, len(sys.argv)):
+    print(xlate(sys.argv[i]))
+
