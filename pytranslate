@@ -4,13 +4,11 @@
 from __future__ import print_function
 from yandex_translate import YandexTranslate
 import sys
-# we need to do it in a proper way
 # local imports
 from apikey import key
 
 translate = YandexTranslate(key)
 
-# dirty hack, we don't need another lang except en and ru
 def invert_lang(lang):
     lang = str(lang)
     if lang == 'ru':
