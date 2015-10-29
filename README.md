@@ -5,11 +5,11 @@
 ![pytranslator](pytranslator.png)
 
 ##Instructions
-1) First of all you need to install additional python library - yandex_translate. You can do it with [pip](https://pypi.python.org/pypi/pip) 
+1) First of all you need to install additional python library: **yandex_translate**. You can do it with [pip](https://pypi.python.org/pypi/pip) 
 
 - ```pip install yandex_translate```
 
-2) After that you need to clone this repository ```git clone https://github.com/Evalle/pytranslator.git```
+2) Then need to clone this repository ```git clone https://github.com/Evalle/pytranslator.git```
 
 3) Also, you need to register your own API key. It's absolutely free and you can do it [here] (https://tech.yandex.com/translate/)
 
@@ -18,9 +18,24 @@
 5) Now you can run **pytranslator** (see Examples section).
 
 ## Arguments
-There is no other arguments except the words or sentencies that you wnat to translate. 
+There is no other arguments except the words or sentencies that you want to translate. 
 
 ## Examples
+
+```
+pytranslate 'Hello my name is pytranslator'
+Здравствуйте меня зовут pytranslator
+```
+
+```
+pytranslate 'Я умею переводить с русского на английский и наоборот!'
+I can translate from Russian to English and Vice versa!
+```
+
+```
+pytranslate 'Хорошего дня!'
+Have a nice day!
+```
 
 ## Free software
 
