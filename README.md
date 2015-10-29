@@ -7,9 +7,9 @@
 
 - ```pip install yandex_translate```
 
-2) After that you need to clone this repository ``` git clone https://github.com/Evalle/pytranslator.git```
+2) After that you need to clone this repository ```git clone https://github.com/Evalle/pytranslator.git```
 
-3) Also, you need to register your own API key. It's absolutely free and you can do it here: https://tech.yandex.com/translate/
+3) Also, you need to register your own API key. It's absolutely free and you can do it [here] (https://tech.yandex.com/translate/)
 
 4) Once you got it, run **cpkey.py** script (you can find it in your pytranslator directory) and follow the instructions.
 
