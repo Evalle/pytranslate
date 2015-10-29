@@ -23,17 +23,17 @@ There is no other arguments except the words or sentencies that you want to tran
 ## Examples
 
 ```
-pytranslate 'Hello my name is pytranslator'
+$ pytranslate 'Hello my name is pytranslator'
 Здравствуйте меня зовут pytranslator
 ```
 
 ```
-pytranslate 'Я умею переводить с русского на английский и наоборот!'
+$ pytranslate 'Я умею переводить с русского на английский и наоборот!'
 I can translate from Russian to English and Vice versa!
 ```
 
 ```
-pytranslate 'Хорошего дня!'
+$ pytranslate 'Хорошего дня!'
 Have a nice day!
 ```
 
