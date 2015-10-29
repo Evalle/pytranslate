@@ -13,7 +13,7 @@
 
 4) Once you got it, run **cpkey.py** script (you can find it in your pytranslator directory) and follow the instructions.
 
-5) Now you can run pytranslator (see Examples section).
+5) Now you can run **pytranslator** (see Examples section).
 
 ## Arguments
 There is no other arguments except the words or sentencies that you wnat to translate. 
