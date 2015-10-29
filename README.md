@@ -23,24 +23,24 @@ There is no other arguments except the words or sentencies that you want to tran
 ## Examples
 
 ```
-$ pytranslate 'Hello my name is pytranslator'
+$ pytranslator 'Hello my name is pytranslator'
 Здравствуйте меня зовут pytranslator
 ```
 
 ```
-$ pytranslate 'Я умею переводить с русского на английский и наоборот!'
+$ pytranslator 'Я умею переводить с русского на английский и наоборот!'
 I can translate from Russian to English and Vice versa!
 ```
 
 ```
-$ pytranslate 'Хорошего дня!'
+$ pytranslator 'Хорошего дня!'
 Have a nice day!
 ```
 
 ## Free software
 
-pytranslate - Copyright (C) 2015 Evgeny Shmarnev shmarnev@gmail.com
+pytranslator - Copyright (C) 2015 Evgeny Shmarnev shmarnev@gmail.com
 
-pytranslate is a free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+pytranslator is a free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-pytranslate is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+pytranslator is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
