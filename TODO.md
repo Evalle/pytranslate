@@ -1,4 +1,4 @@
 ###TODO list:
 
-- [ ] add help message (from external script probably)
-- [ ] add README.md file
+- [X] add help message (from external script probably)
+- [X] add README.md file
