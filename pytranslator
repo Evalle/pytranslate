@@ -1,9 +1,11 @@
 #!/usr/bin/python
 #version = 0.2
+
 # global imports:
 from __future__ import print_function
 from yandex_translate import YandexTranslate
 import sys
+
 # local imports
 from apikey import key
 
@@ -15,7 +17,8 @@ def invert_lang(lang):
         return 'en'
     if lang == 'en':
         return 'ru'
-    return 'unknown'
+    else:
+        raise ValueError("Unknown language")
 
 def xlate(user_input):
     slang = translate.detect(user_input)
