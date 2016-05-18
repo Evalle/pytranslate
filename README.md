@@ -7,7 +7,7 @@
 ##Instructions
 1) First of all you need to install additional python library: **yandex_translate**. You can do it with [pip](https://pypi.python.org/pypi/pip) 
 
-- ```pip install yandex_translate```
+- ```pip install yandex.translate```
 
 2) Then need to clone this repository ```git clone https://github.com/Evalle/pytranslator.git```
 
@@ -39,7 +39,7 @@ Have a nice day!
 
 ## Free software
 
-pytranslator - Copyright (C) 2015 Evgeny Shmarnev shmarnev@gmail.com
+pytranslator - Copyright (C) 2016 Evgeny Shmarnev shmarnev@gmail.com
 
 pytranslator is a free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
