@@ -7,7 +7,9 @@
 ##Instructions
 1) First of all you need to install additional python library: **yandex_translate**. You can do it with [pip](https://pypi.python.org/pypi/pip) 
 
-- ```pip install yandex.translate```
+```
+$ pip install yandex.translate
+```
 
 2) Then need to clone this repository ```git clone https://github.com/Evalle/pytranslator.git```
 
