@@ -1,6 +1,6 @@
 # pytranslator
 
-**pytranlator** is a python cli program which allows you to translale words and sentencies from russian to english and vice verse. It uses [Yandex translator API](https://tech.yandex.com/translate/) and it's very accurate. 
+**pytranlator** is a python cli program which allows you to translale words and sentencies from Russian to English and vice verse. It uses [Yandex translator API](https://tech.yandex.com/translate/) and it's very accurate. 
 
 ![pytranslator](pytranslator.png)
 
