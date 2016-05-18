@@ -2,7 +2,6 @@
 #version = 0.2
 
 # global imports:
-from __future__ import print_function
 from yandex_translate import YandexTranslate
 import sys
 
@@ -32,4 +31,3 @@ if len(sys.argv) < 2:
 
 for i in range(1, len(sys.argv)):
     print(xlate(sys.argv[i]))
-
