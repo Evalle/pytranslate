@@ -2,11 +2,19 @@
 #version = 0.2
 
 # global imports:
+from configparser import SafeConfigParser
 from yandex_translate import YandexTranslate
 import sys
 
 # local imports
-from apikey import key
+parser = SafeConfigParser()
+parser.read('apikey.config')
+
+key = parser.get('apikey', 'key') 
+
+if key == "''":
+    print('First you need to obtain apikey')
+    sys.exit(1)
 
 translate = YandexTranslate(key)
 
