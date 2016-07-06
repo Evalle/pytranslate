@@ -19,5 +19,5 @@ user_input = input("> ")
 
 keyfile = open("apikey.config", 'w')
 keyfile.write("[apikey]\n")
-keyfile.write("key = '" + user_input + "'" + "\n")
+keyfile.write("key = " + user_input + "\n")
 keyfile.close()

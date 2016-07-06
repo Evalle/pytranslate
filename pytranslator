@@ -12,7 +12,7 @@ parser.read('apikey.config')
 
 key = parser.get('apikey', 'key') 
 
-if key == "''":
+if key == "":
     print('First you need to obtain apikey')
     sys.exit(1)
 
