@@ -12,7 +12,7 @@ parser.read('apikey.config')
 key = parser.get('apikey', 'key')
 
 if key == "":
-    print('First you need to obtain apikey')
+    print('First you need to obtain the apikey')
     sys.exit(1)
 
 translate = YandexTranslate(key)
@@ -35,7 +35,7 @@ def xlate(user_input):
     return (ans_list[0])
 
 if len(sys.argv) < 2:
-    print("please, print at least one word as argument!", file=sys.stderr)
+    print("please, print at least one word as an argument!", file=sys.stderr)
     sys.exit(1)
 
 for i in range(1, len(sys.argv)):
